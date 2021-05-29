@@ -1,0 +1,9 @@
+﻿<Application x:Class="ExtendableAppWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ExtendableAppWPF"
+             StartupUri="ExtendableAppWindow.xaml">
+    <Application.Resources>
+        <local:ExtendableAppViewModel x:Key="ExtendableAppViewModel"></local:ExtendableAppViewModel>
+    </Application.Resources>
+</Application>
